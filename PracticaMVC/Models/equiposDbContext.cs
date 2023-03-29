@@ -19,6 +19,11 @@ namespace PracticaMVC.Models
 
         public DbSet<tipo_equipo> tipo_equipo { get;set; }
 
+        public DbSet<usuarios> usuarios { get; set;}
+
+        public DbSet<carreras> carreras { get; set;}
+
+
 
     }
 }
